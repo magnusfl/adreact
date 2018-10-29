@@ -1,8 +1,22 @@
 {
-  "workbench.colorCustomizations": {
-    "titleBar.activeForeground": "#000",
-    "titleBar.inactiveForeground": "#000000CC",
-    "titleBar.activeBackground": "#FFC600",
-    "titleBar.inactiveBackground": "#FFC600CC"
-  }
+    "prettier.eslintIntegration": true,
+    "workbench.colorCustomizations": {
+        "titleBar.activeForeground": "#000",
+        "titleBar.inactiveForeground": "#000000CC",
+        "titleBar.activeBackground": "#FFC600",
+        "titleBar.inactiveBackground": "#FFC600CC"
+    },
+    "eslint.options": { "configFile": ".vscode/.eslintrc" },
+
+    // These are all my auto-save configs
+    "editor.formatOnSave": true,
+    // turn it off for JS
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }
