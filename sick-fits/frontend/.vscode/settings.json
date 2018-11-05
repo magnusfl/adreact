@@ -7,6 +7,8 @@
         "titleBar.inactiveBackground": "#FFC600CC"
     },
     "eslint.options": { "configFile": ".vscode/.eslintrc" },
+    "editor.tabSize": 2,
+    "prettier.tabWidth": 2,
 
     // These are all my auto-save configs
     "editor.formatOnSave": true,
